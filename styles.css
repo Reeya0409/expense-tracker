@@ -1,0 +1,64 @@
+body {
+  background-color: #f7f4ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.text-lavender {
+  color: #7c6cc4;
+}
+
+.btn-lavender {
+  background-color: #b79ced;
+  color: white;
+}
+
+.btn-lavender:hover {
+  background-color: #9f88d6;
+}
+.card{
+border-radius:20px;
+}
+
+.shadow{
+box-shadow:
+0 8px 25px rgba(0,0,0,.1);
+}
+
+.dark{
+background:#1f1f1f;
+color:white;
+}
+
+.progress{
+
+margin-bottom:15px;
+
+height:20px;
+
+}
+
+.list-group-item{
+
+border-radius:15px;
+margin-top:10px;
+
+}
+
+canvas{
+
+max-height:300px;
+
+margin-top:20px;
+
+}
+.dark .card{
+background:#2b2b2b;
+color:white;
+}
+
+.dark input,
+.dark select{
+background:#333;
+color:white;
+border:none;
+}
