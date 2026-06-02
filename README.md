@@ -2,7 +2,7 @@
 
 A modern and user-friendly Expense Tracker application that helps users manage their daily expenses, monitor spending habits, and gain insights into their financial activities.   
 
-🔗 Live Demo: [https://credit-card-fraud-detection-1-thwy.onrender.com](https://reeya0409.github.io/expense-tracker/)   
+🔗 Live Demo: [https://expense-tracker-1-thwy.onrender.com](https://reeya0409.github.io/expense-tracker/)   
 
 ---
 
