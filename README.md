@@ -51,6 +51,14 @@ expense-tracker/
 
 ```
 
+📸 Screenshots
+
+![Expence Tracker](screenshot1.png)
+![Expence Tracker](screenshot2.png)
+![Expence Tracker](screenshot3.png)
+![Expence Tracker](screenshot4.png)
+![Expence Tracker](screenshot5.png)
+
 ---
 
 ## 📊 Future Enhancements
