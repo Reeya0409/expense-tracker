@@ -4,7 +4,7 @@ body {
 }
 
 .text-lavender {
-  color: #7c6cc4;
+  color: #9f88d6;
 }
 
 .btn-lavender {
@@ -25,9 +25,9 @@ box-shadow:
 }
 
 .dark{
-background:#1f1f1f;
-color:white;
-}
+  background-color: #08070a !important;
+  color: #e0e0e0 !important;
+  }
 
 .progress{
 
@@ -49,16 +49,60 @@ canvas{
 max-height:300px;
 
 margin-top:20px;
-
-}
-.dark .card{
-background:#2b2b2b;
-color:white;
+filter: invert(0.9) hue-rotate(180deg) !important;
 }
 
+
+.dark .card,
 .dark input,
 .dark select{
-background:#333;
-color:white;
-border:none;
+background-color: #121113 !important; 
+    color: #ffffff !important;
+    border: 1px solid #414141 !important;
+}
+#themeBtn:hover{
+  border-color: #000000;
+  color: #000000;
+  box-shadow:0 8px 25px rgba(139, 97, 207, 0.21);
+}
+
+#themeBtn{
+  border: 10px;
+  border: 2px solid #7c6cc4;
+  font-weight: 600;
+  transition: all 0.4s ease-in-out;
+  background: none;
+  color : #7c6cc4;
+}
+
+.dark #themeBtn {
+  border-color: #9f88d6;
+  color: #9f88d6;
+  background-color: #08070a;
+}
+
+.dark #themeBtn:hover { 
+  box-shadow:0 8px 25px rgba(139, 97, 207, 0.21);}
+
+
+#remaining{
+  color: green;
+  font-weight: 500;
+  font-size: 18px;
+  padding-left: 3px;
+}
+
+body.dark :focus {
+    box-shadow: none !important;
+    border-color: #7c6cc4 !important;
+}
+
+body.dark ::placeholder {
+    color: #ffffff !important;
+}
+
+body.dark .list-item, body.dark li {
+    background-color: #121113 !important;
+    color: #ffffff !important;
+    border: 1px solid #2d2d2d !important;
 }
